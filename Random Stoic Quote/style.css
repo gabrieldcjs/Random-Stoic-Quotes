@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 100.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+  color: rgb(137, 112, 92);
+  background-color: rgb(79, 42, 42);
+  /* background-color: #60b347; */
+}
+header {
+  position: relative;
+  height: 35vh;
+  border-bottom: 7px solid #eee;
+}
+
+main {
+  height: 65vh;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.left {
+  width: 52rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right {
+  width: 52rem;
+  font-size: 2rem;
+}
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.created {
+  font-size: 1.4rem;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+.btn {
+  border: none;
+  background-color: #eee;
+  color: #222;
+  font-size: 2rem;
+  font-family: inherit;
+  padding: 2rem 3rem;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.btn1 {
+  border: none;
+  background-color: #eee;
+  color: #222;
+  font-size: 2rem;
+  font-family: inherit;
+  padding: 2rem 3rem;
+  cursor: pointer;
+  text-align: center;
+}
+#course-image2 {
+  width: 200px;
+  object-position: center;
+  border: 2px solid black;
+  margin-top: 22rem;
+  margin-left: 10rem;
+}
+#course-image {
+  width: 200px;
+  object-position: center;
+  border: 2px solid black;
+  margin-top: 22rem;
+  margin-left: 45rem;
+}
